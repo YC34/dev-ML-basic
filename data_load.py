@@ -18,14 +18,17 @@ def load_housing_data():
 
 housing = load_housing_data()
 
-print(housing.head())
-print(housing.info())
+# print(housing.head())
+# print(housing.info())
 
 print(housing['ocean_proximity'].value_counts()) ## 데이터의 타입이 object인 것들을 탐색
-print(housing.describe())
-
+# print(housing.describe())
 
 ## 시각화를 위한 matplotlib import
-import matplotlib.pyplot as plt
-housing.hist(bins=50, figsize=(12,8))
-plt.show()
+# import matplotlib.pyplot as plt
+# housing.hist(bins=50, figsize=(12,8))
+# plt.show()
+
+## 검증을 위해 테스트 데이터를 만들어야 한다.
+
+
